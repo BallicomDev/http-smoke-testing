@@ -34,5 +34,12 @@
     },
     "conflict": {
         "symfony/dependency-injection": "3.4.15|3.4.16"
+    },
+    "config": {
+        "policy": {
+            "cooldown": {
+                "period": "7 days"
+            }
+        }
     }
 }
